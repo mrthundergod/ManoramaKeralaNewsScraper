@@ -1,2 +1,2 @@
 # ManoramaKeralaNewsScraper
-Scraoes and runs NLP on Kerala News from Manorama online.
+Scrapes and runs NLP on Kerala News from Manorama online.
