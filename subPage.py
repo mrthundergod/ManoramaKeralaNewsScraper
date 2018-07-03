@@ -7,8 +7,9 @@ def parseSubPage(url):
 
   leSoup = soup.find('div',class_='story-body article-content')
   body = leSoup.p.text
-  print(body)
+  return body
 
 if __name__=='__main__':
   url = 'https://english.manoramaonline.com/news/kerala/2018/07/03/abhimanyu-first-student-die-maharajas-campus-kochi.html'
-  hello(url)
+  body = hello(url)
+  print(body)
